@@ -2,7 +2,9 @@ language: ruby
 rvm:
   - 1.9.3
 before_install:
+  - export rvmsudo_secure_path=0
+  - rvmsudo gem install bundler --no-ri --no-rdoc
+  - rvmsudo bundle exec ruby --version
   - sudo apt-get update
   - sudo apt-get install libxslt-dev libxml2-dev build-essential
-  - export rvmsudo_secure_path=0
 script: bundle exec vagabond kitchen test --platform ubuntu-12.04
