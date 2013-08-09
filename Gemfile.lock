@@ -224,5 +224,6 @@ PLATFORMS
 
 DEPENDENCIES
   berkshelf
+  bundler
   elecksee!
   vagabond!
