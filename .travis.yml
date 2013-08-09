@@ -1,11 +1,9 @@
-language: ruby
-rvm:
-  - 1.9.3
 before_install:
   - sudo add-apt-repository -y ppa:brightbox/ruby-ng-experimental 
   - sudo apt-get update
   - sudo apt-get install ruby1.9.3
   - export PATH=/usr/bin:$PATH
   - sudo apt-get install libxslt-dev libxml2-dev build-essential
-  - gem install bundler --no-ri --no-rdoc
+  - sudo gem install bundler --no-ri --no-rdoc
+  - sudo bundle install
 script: bundle exec vagabond kitchen test --platform ubuntu-12.04
