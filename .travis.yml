@@ -4,4 +4,5 @@ rvm:
 before_install:
   - sudo apt-get update
   - sudo apt-get install libxslt-dev libxml2-dev build-essential
+  - export rvmsudo_secure_path=0
 script: bundle exec vagabond kitchen test --platform ubuntu-12.04
