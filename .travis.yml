@@ -2,5 +2,6 @@ language: ruby
 rvm:
   - 1.9.3
 before_install:
+  - sudo apt-get update
   - sudo apt-get install libxslt-dev libxml2-dev build-essential
 script: bundle exec vagabond kitchen test --platform ubuntu-12.04
