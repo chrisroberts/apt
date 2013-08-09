@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/chrisroberts/vagabond.git
-  revision: d7f8e28c60189abcd357dda71453b0877b18abb5
+  revision: e01f2a6022d2444ed727f8b0994ba3fe903779e5
   branch: develop
   specs:
     vagabond (0.2.9)
