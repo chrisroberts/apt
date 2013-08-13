@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/chrisroberts/vagabond.git
-  revision: 758e5596ab06192d8dd95d8e7138c62a0abdb8de
+  revision: 1db6dcd5478d24f284ebbdd09bd34fadefdadc72
   branch: develop
   specs:
     vagabond (0.2.9)
@@ -93,7 +93,7 @@ GEM
     httpclient (2.2.0.2)
     httpi (0.9.7)
       rack
-    i18n (0.6.4)
+    i18n (0.6.5)
     ipaddress (0.8.0)
     json (1.7.7)
     knife-bootstrapsync (1.0.2)
@@ -118,7 +118,7 @@ GEM
     mixlib-config (1.1.2)
     mixlib-log (1.6.0)
     mixlib-shellout (1.2.0)
-    multi_json (1.7.8)
+    multi_json (1.7.9)
     multipart-post (1.2.0)
     net-http-persistent (2.9)
     net-scp (1.1.2)
@@ -186,7 +186,7 @@ GEM
       nokogiri (>= 1.4.0)
       nori (~> 1.0)
       wasabi (~> 1.0)
-    serverspec (0.7.6)
+    serverspec (0.7.8)
       highline
       net-ssh
       rspec (~> 2.13.0)

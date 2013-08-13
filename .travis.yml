@@ -7,6 +7,4 @@ before_install:
   - sudo gem install bundler --no-ri --no-rdoc
   - sudo bundle install
   - sudo apt-get update
-  - sudo apt-get install lxc || /bin/true
-  - sudo apt-get install apt-cacher-ng
 script: bundle exec vagabond kitchen test --platform ubuntu-12.04
