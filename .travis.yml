@@ -1,4 +1,7 @@
 before_install:
+  - sudo apt-get update
+  - sudo ifconfig
+  - sudo apt-get install lxc
   - sudo add-apt-repository -y ppa:brightbox/ruby-ng-experimental 
   - sudo apt-get update
   - sudo apt-get install ruby1.9.3
