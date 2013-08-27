@@ -7,10 +7,8 @@ GIT
       mixlib-shellout
       net-ssh
 
-GIT
-  remote: git://github.com/chrisroberts/vagabond.git
-  revision: 1db6dcd5478d24f284ebbdd09bd34fadefdadc72
-  branch: develop
+PATH
+  remote: /home/spox/Projects/bitbucket/chrisroberts/vagabond
   specs:
     vagabond (0.2.9)
       attribute_struct

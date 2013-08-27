@@ -31,8 +31,19 @@ suites:
   - recipe[apt_test::cacher-ng]
   attributes: {}
 
+- name: cacher-client
+  run_list:
+  - recipe[minitest-handler]
+  - recipe[apt_test::cacher-client]
+  attributes: {}
+
 - name: lwrps
   run_list:
   - recipe[minitest-handler]
   - recipe[apt_test::lwrps]
   attributes: {}
+
+clusters:
+  cacher:
+  - cacher-ng
+  - cacher-client
